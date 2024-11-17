@@ -13,6 +13,8 @@ import java.util.Collections;
  */
 
 public class GroupOfCards {
+    // Aggregation: GroupOfCards contains multiple Card objects.
+    // Encapsulated field to store the collection of cards.
     private ArrayList<Card> cards;
     private int size;
 

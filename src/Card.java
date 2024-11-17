@@ -47,7 +47,7 @@ public class Card {
     /**
      * Overrides the toString method to provide a string representation of the card.
      *
-     * @return A string like "2 of Hearts" for example.
+     * 
      */
     @Override
     public String toString() {

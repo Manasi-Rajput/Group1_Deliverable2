@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 // The Game class is abstract, so it cannot be instantiated directly, only through subclassing.
 public abstract class Game {
-    private final String name; // The title of the game (e.g., "War", "Poker").
+    private final String name; 
     
     // Aggregation: The players are part of the game, but they can exist independently.
     private ArrayList<Player> players; // List of players involved in the game.
